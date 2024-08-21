@@ -17,5 +17,5 @@ export default defineConfig({
     protocolImports: true,
   }),],
   // plugins: [react()],// nodePolyfills()],
-  base: './',
+  base: '/ton_first_contract_front_end/',
 })

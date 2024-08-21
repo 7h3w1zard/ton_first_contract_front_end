@@ -1,7 +1,5 @@
-import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import React from 'react';
+// import { useState } from 'react'
+// import React from 'react';
 import './App.css'
 import { TonConnectButton } from '@tonconnect/ui-react';
 import { useMainContract } from './hooks/useMainContract';
@@ -13,8 +11,8 @@ function App() {
     contract_address,
     contract_balance,
     counter_value,
-    owner_address,
-    recent_sender,
+    // owner_address,
+    // recent_sender,
     sendIncrement,
     sendDeposit,
     sendWithdrawalRequest,
